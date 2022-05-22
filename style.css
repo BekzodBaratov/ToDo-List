@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  height: 80vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: blue;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  color: white;
+
+  width: 70vw;
+}
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+.inp {
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.inp input {
+  border: 0ch;
+  background-color: white;
+  padding: 1rem;
+  width: 55vw;
+  font-size: 1.6rem;
+}
+.inp a {
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 15vw;
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.addList {
+  font-size: 1.6rem;
+}
+.div {
+  border-bottom: 1px solid rgb(97, 97, 97);
+}
+.addList a {
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  background-color: red;
+  width: 2.5vw;
+}
+.addList p {
+  width: 80vw;
+}
